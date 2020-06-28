@@ -11,7 +11,6 @@ turtle.bye()
 t   = turtle.getturtle()
 t.color("green","blue")
 t.begin_fill()
-
 for x in range(4):
     t.left(180)
     t.forward(100)

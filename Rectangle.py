@@ -18,6 +18,7 @@ t.forward(150)
 t.left(180)
 t.pendown()
 t.begin_fill()
+t.width(5)
 for x in range(4):
     t.left(180)
     t.forward(100)
@@ -27,6 +28,7 @@ for x in range(4):
 t.penup()   
 t.forward(300)
 t.pendown()
+
 for x in range(4):
  t.left(180)
  t.forward(100)

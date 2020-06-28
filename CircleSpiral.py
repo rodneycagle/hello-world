@@ -8,8 +8,9 @@ Created on Fri Jun 26 19:05:13 2020
 import turtle
 turtle.bye()
 t   = turtle.getturtle()
-turtle.bgcolor("orange")
-t.color("green","blue")
+turtle.bgcolor("red")
+t.color("purple","blue")
+t.width(5)
 t.begin_fill()
 for x in range(4):    
  t.circle(100) 
